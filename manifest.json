@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Go To ExplainXKCD",
+    "version": "1.0",
+  
+    "description": "Adds a button to xkcd that sends you to the unofficial wiki",
+  
+    "icons": {
+      "48": "icons/icon48.png",
+      "96": "icons/icon96.png"
+    },
+  
+    "content_scripts":
+    [
+      {
+        "matches": ["*://xkcd.com/*"],
+        "js": ["explain.js"]
+      }
+    ]
+}
