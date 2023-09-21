@@ -1,7 +1,7 @@
 
 ### GreaseMonkey Script
 
-I'd recommend using this script instead!
+I'd recommend using the GreaseMonkey script instead! Pull it from the files above, or copypaste from the section below:
 
 <details>
 
