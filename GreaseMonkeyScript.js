@@ -16,9 +16,7 @@ if (document.URL.includes("xkcd.com") && !document.URL.includes("explainxkcd")) 
   }
 
   if  (isNumeric(current[2]) || !isNumeric(current[2]) && current[2] === "/") {
-
     let btn = document.createElement("div");
-
     btn.style.position = "fixed";
     btn.style.right = "20px";
     btn.style.bottom = "20px";
