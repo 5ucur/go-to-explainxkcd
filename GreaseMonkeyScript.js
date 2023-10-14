@@ -11,8 +11,6 @@ if (document.URL.includes("xkcd.com") && !document.URL.includes("explainxkcd")) 
       window.location.pathname
   ]
 
-	console.log(current);
-
   if (current[1] !== "xkcd.com") {
     current[1] = current[1].slice(current[1].indexOf('.') + 1);
   }
